@@ -21,7 +21,7 @@ main {
   margin-right: 30px;
   background-color: #eeeeee;
   padding: 10px;
-  position: relative;
+  position: relative;　/* 基準としたい要素に記述 */
 }
 
 .step-box:last-child {
