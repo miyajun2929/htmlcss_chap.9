@@ -14,7 +14,6 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  position: relative;
 }
 
 .step-box {
@@ -22,6 +21,7 @@ main {
   margin-right: 30px;
   background-color: #eeeeee;
   padding: 10px;
+  position: relative;
 }
 
 .step-box:last-child {
@@ -30,6 +30,20 @@ main {
 
 .step-img1 {
   background-image: url(img/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img2 {
+  background-image: url(img/flow02.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-img3 {
+  background-image: url(img/flow03.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
